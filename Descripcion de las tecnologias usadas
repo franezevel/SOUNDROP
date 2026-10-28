@@ -1,0 +1,12 @@
+HTML (HyperText Markup Language): 
+Es el lenguaje de marcado encargado de la estructura y el contenido. Define qué elementos aparecen en la página
+(párrafos, títulos, imágenes, enlaces, tablas, formularios) utilizando etiquetas.Es, por así decirlo, el esqueleto o 
+la armadura de un sitio web.
+  
+CSS (Cascading Style Sheets): Es el lenguaje de diseño que maneja la apresentación visual y el estilo. Controla los colores,
+las tipografías, los márgenes, las animaciones y cómo se adaptan los elementos a diferentes tamaños de pantalla 
+(diseño responsivo).Funciona como la ropa, el maquillaje y la decoración que le dan vida y personalidad al esqueleto.
+
+Canva:A diferencia de HTML y CSS, Canva está enfocado principalmente en la creación gráfica e imágenes estáticas o multimedia,
+no en la programación de sitios web interactivos con lógica compleja, aunque sí permite diseñar prototipos visuales
+o publicar páginas simples tipo landing page.  
