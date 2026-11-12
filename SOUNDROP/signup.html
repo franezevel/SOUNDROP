@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sondrop - Sign Up</title>
+    <link rel="short-cut icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="signin2.html" method="POST">
+        <div class="login-screen">
+            <div>
+                <img src="logo.png" height="300px" width="299px" class="login-logo">
+            </div>
+            <p>ENTER THE CODE SENT TO <a href="https://mail.google.com" target="_blank" class="link">YOUR EMAIL</a>:</p>
+            <input type="text" class="sign-code" minlength="6" maxlength="6" placeholder="******" required>
+            <dl>
+                <button type="submit" class="sign-1" onclick="window.location.href='signup.html'">RESEND</button>
+                <!-- "onclick" es una propiedad de JS en línea,
+                nos permite "saltear" el formulario requerido para redirigirnos a otra página -->
+                <button type="submit" class="sign-2">VERIFY</button>
+            </dl>
+        </div>
+    </form>
+</body>
+</html>
