@@ -132,12 +132,11 @@ body {
     padding: 5% 0%;
 }
 .menu {
-    justify-self: center;
     grid-column: 1 / 2;
     grid-row: 3 / 13;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-self: center;
     gap: 25px;
 }
 .nav-active {
