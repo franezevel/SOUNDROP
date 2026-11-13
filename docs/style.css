@@ -127,6 +127,7 @@ body {
     justify-items: start;
 }
 .logoxl {
+    justify-self: start;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     padding: 5% 0%;
