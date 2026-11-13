@@ -136,6 +136,7 @@ body {
     display: flex;
     justify-self: center;
     flex-direction: column;
+    justify-items: center;
     justify-content: flex-start;
     gap: 25px;
 }
