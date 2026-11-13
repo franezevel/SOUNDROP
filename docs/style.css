@@ -124,7 +124,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    justify-items: start;
 }
 .logoxl {
     justify-self: start;
