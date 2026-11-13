@@ -125,10 +125,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     justify-items: center;
+    justify-content: center;
 }
 .logoxl {
     display: flex;
-    justify-self: flex-start;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     padding: 5% 0%;
