@@ -134,6 +134,7 @@ body {
     grid-column: 1 / 2;
     grid-row: 3 / 13;
     display: flex;
+    justify-self: center;
     flex-direction: column;
     justify-content: flex-start;
     gap: 25px;
