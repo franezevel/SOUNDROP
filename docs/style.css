@@ -137,6 +137,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    justify-items: center;
     gap: 25px;
 }
 .nav-active {
