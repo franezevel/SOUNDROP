@@ -124,6 +124,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
 }
 .logoxl {
     grid-column: 1 / 2;
@@ -134,9 +136,7 @@ body {
     grid-column: 1 / 2;
     grid-row: 3 / 13;
     display: flex;
-    justify-self: center;
     flex-direction: column;
-    justify-items: center;
     justify-content: flex-start;
     gap: 25px;
 }
