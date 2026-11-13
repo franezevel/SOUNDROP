@@ -126,6 +126,7 @@ body {
     justify-content: space-between;
 }
 .logoxl {
+    display: flex;
     justify-self: flex-start;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
