@@ -125,6 +125,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centra horizontalmente todos los elementos dentro del sidebar */
+    justify-content: flex-start;
 }
 
 .logoxl {
