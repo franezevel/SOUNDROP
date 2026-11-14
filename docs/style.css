@@ -115,103 +115,90 @@ body {
     height: 100vh;
 }
 /*SIDEBAR*/
+/* SIDEBAR */
 .sidebar {
-    grid-column: 1 / 4; /*columnas 1 a 4*/
-    grid-row: 1 / 13; /*filas 1 a 12*/
+    grid-column: 1 / 4;
+    grid-row: 1 / 13;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    justify-items: center;
-    justify-content: center;
+    align-items: center; /* Centra horizontalmente todos los elementos dentro del sidebar */
 }
+
 .logoxl {
-    display: flex;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    padding: 5% 0%;
+    width: 100%;
+    height: auto; /* Evita que la imagen se deforme */
+    padding: 5% 0;
 }
+
 .menu {
-    grid-column: 1 / 2;
-    grid-row: 3 / 13;
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    justify-items: center;
-    gap: 25px;
+    align-items: center; /* Centra los botones <a> horizontalmente */
+    justify-content: center; /* Centra el grupo de enlaces verticalmente */
+    flex-grow: 1; /* Hace que el menú ocupe todo el espacio sobrante debajo del logo */
+    width: 100%;
+    gap: 15px; /* Ajustado ligeramente para que quepan bien en pantallas estándar */
+}
+
+/* Opcional: Si quieres que todos los botones tengan el mismo ancho y el texto centrado */
+.nav-active, .nav-link, .nav-exit {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el texto dentro del botón */
+    width: 85%; /* Les da un ancho uniforme y centrado */
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid transparent; /* Evita que el botón "salte" al hacer hover */
 }
 .nav-active {
     display: flex;
     align-items: center;
     padding: 10px;
-    border-radius: 15px;
     background-color:#00c9a7;
     color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-style: hidden;
 }
 .nav-link {
     display: flex;
     align-items: center;
-    padding: 10px;
-    border-radius: 15px;
     background-color:#e5eaf0;
     color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    border-style: hidden;
 }
 .nav-exit {
     display: flex;
     align-items: center;
-    padding: 10px;
-    border-radius: 15px;
     background-color:#e5eaf0;
     color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    border-style: hidden;
 }
 .nav-active:hover {
-    padding: 7px;
-    border-style: solid;
     background-color: #00c9a7;
     color: #e5eaf0;
     border-color: #e5eaf0;
 }
 .nav-active:active {
-    padding: 7px;
-    border-style: solid;
     background-color: #e5eaf0;
     color: #00c9a7;
     border-color: #00c9a7;
 }
 .nav-link:hover {
-    padding: 7px;
-    border-style: solid;
     color: #00c9a7;
     border-color: #00c9a7;
 }
 .nav-link:active {
     background-color: #00c9a7;
-    padding: 7px;
-    border-style: solid;
     color: #e5eaf0;
     border-color: #e5eaf0;
 }
 .nav-exit:hover {
-    padding: 7px;
-    border-style: solid;
     color: red;
     border-color: red;
 }
 .nav-exit:active {
     background-color: red;
-    padding: 7px;
-    border-style: solid;
     color: #e5eaf0;
     border-color: #e5eaf0;
 }
