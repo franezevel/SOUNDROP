@@ -127,6 +127,12 @@ body {
     align-items: center; /* Centra horizontalmente todos los elementos dentro del sidebar */
     justify-content: flex-start;
 }
+.logo-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Separación mínima debajo del logo */
+}
 
 .logoxl {
     width: 100%;
