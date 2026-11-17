@@ -1531,4 +1531,5 @@ body {
 .cat-text{
   color: #00000080;
   font-weight: bold;
+  overflow:hidden;
 }
