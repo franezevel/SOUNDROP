@@ -1529,5 +1529,6 @@ body {
 }
 /*TEXTO DE CATEGORIAS EN EL VIEW PLAYER*/
 .cat-text{
-  
+  color: #00000080;
+  font-weight: bold;
 }
