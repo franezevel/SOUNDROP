@@ -1527,3 +1527,7 @@ body {
 .profile-shortcut:hover, .like:hover, .card-price:hover, .like:hover {
     transform: translateX(-4px);
 }
+/*TEXTO DE CATEGORIAS EN EL VIEW PLAYER*/
+.cat-text{
+  
+}
