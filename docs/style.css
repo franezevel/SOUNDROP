@@ -1262,6 +1262,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow:hidden;
 }
 .big-shortcut-name {
     font-size: 16px;
@@ -1531,5 +1532,4 @@ body {
 .cat-text{
   color: #00000080;
   font-weight: bold;
-  overflow:hidden;
 }
