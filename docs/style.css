@@ -1533,3 +1533,55 @@ body {
   color: #00000080;
   font-weight: bold;
 }
+/*BOTON DE UPGRADE ACCOUNT*/
+.settings-upgrade-btn {
+    width: 85%;
+    padding: 12px 22px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    background-color: #00c9a7;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.15s ease, border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.settings-upgrade-text {
+    text-align: center;
+}
+
+.settings-upgrade-icon {
+    position: absolute;
+    right: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    transition: transform 0.15s ease, color 0.2s ease;
+}
+
+.settings-upgrade-btn:hover {
+    border-color: #000000;
+    transform: scale(1.02);
+}
+
+.settings-upgrade-btn:hover .settings-upgrade-icon {
+    transform: scale(1.1);
+}
+
+.settings-upgrade-btn:active {
+    background-color: #ffffff;
+    color: #00c9a7;
+    border-color: #00c9a7;
+}
+
+.settings-upgrade-btn:active .settings-upgrade-icon {
+    color: #00c9a7;
+}
